@@ -2,10 +2,6 @@
 Air Canvas An Virtual Drawing Board is Interactive Digital art Project which can draw in Air by capturing hand motion from camera Captures hand gestures using a camera, allowing you to draw on the canvas simply by waving your fingertip in the air
 
 
-https://github.com/YashPise/Virtual-Drawing-Board-/assets/99723328/cfef4b43-1f0a-49a8-a246-a4403a9e6af2
-
-This is the demo viedo 
-
 ## Overview
 
 This repository contains a Virtual Drawing Board project that allows users to draw on a digital canvas using a variety of tools and colors. The application is built using Python and OpenCV, providing an intuitive interface for freehand drawing.
