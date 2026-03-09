@@ -19,15 +19,14 @@ This repository contains a Virtual Drawing Board project that allows users to dr
 ### Prerequisites
 
 - Python 3.x
-- OpenCV
-- Numpy
+- A webcam
 
 ### Installation
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/YashPise/Virtual-Drawing-Board-.git
-    cd Virtual-Drawing-Board-
+    git clone https://github.com/vippagowthami/Virtual-Drawing-Board.git
+    cd Virtual-Drawing-Board
     ```
 
 2. **Install Dependencies**:
@@ -39,23 +38,22 @@ This repository contains a Virtual Drawing Board project that allows users to dr
 
 1. **Run the Application**:
     ```sh
-    python src/drawing_board.py
+    python Ai_virtual_painter.py
     ```
 
 2. **Using the Drawing Board**:
-    - **Drawing**: Click and drag the mouse to draw on the canvas.
-    - **Color Selection**: Select colors from the palette to change the drawing color.
-    - **Tools**: Switch between different drawing tools (e.g., pen, brush, eraser).
-    - **Undo/Redo**: Use keyboard shortcuts or buttons to undo/redo actions.
-    - **Save**: Save your drawing by clicking the save button.
+    - **Selection Mode**: Hold up your **index and middle fingers** together to enter selection mode.
+    - **Drawing Mode**: Hold up only your **index finger** to draw on the canvas.
+    - **Color Selection**: In selection mode, move your index finger into the toolbar at the top of the screen to pick a color (Purple, Blue, or Green).
+    - **Eraser**: Select the **ERASER** tool from the toolbar in the same way.
+    - **Clear Canvas**: In selection mode, move your hand over the **CLEAR** button (top-left) to wipe the canvas.
 
 ## Folder Structure
 
-- `src/`: Contains the source code for the application.
-  - `drawing_board.py`: Main script to run the virtual drawing board.
-- `assets/`: Contains images and icons used in the application.
-- `README.md`: Project overview and instructions.
-- `requirements.txt`: List of dependencies.
+- `Ai_virtual_painter.py`: Main script to run the virtual drawing board.
+- `HandTrackingModule.py`: Helper module for hand detection and landmark tracking.
+- `Header/`: Toolbar images displayed at the top of the drawing window.
+- `requirements.txt`: List of Python dependencies.
 
 ## Contributing
 
